@@ -10,7 +10,7 @@ class Solution {
     
     if(Map.containsKey(nedded)){
         return new int[] {Map.get(nedded),i};
-
+ 
     }
     Map.put(nums[i],i);
   }
