@@ -6,7 +6,7 @@ class Solution {
       HashMap<Integer ,Integer>Map = new HashMap<>();
 
   for(int i=0 ;i<nums.length ;i++){
-    int nedded =target - nums[i];
+    int nedded =target - nums[i]; 
     
     if(Map.containsKey(nedded)){
         return new int[] {Map.get(nedded),i};
