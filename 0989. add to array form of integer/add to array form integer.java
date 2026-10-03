@@ -10,7 +10,7 @@ class Solution {
 
         while (i >= 0 || k > 0) {
 
-            if (i >= 0) {
+            if (i >= 0) { 
                 k = k + num[i];
             }
 
